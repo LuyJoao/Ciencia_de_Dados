@@ -1,0 +1,55 @@
+# Este é um cabeçalho de comentário
+# Data da geração: 2024-01-01
+id_evento,tipo,timestamp,descricao
+1,login,2024-01-01 08:00:00,Usuário admin logou
+2,erro,2024-01-01 08:05:10,Falha ao carregar módulo X
+3,login,2024-01-01 08:10:00,Usuário convidado logou
+4,sucesso,2024-01-01 08:15:30,Operação concluída
+5,logout,2024-01-01 08:20:00,Usuário admin saiu
+6,login,2024-01-01 08:22:10,Usuário joao logou
+7,erro,2024-01-01 08:25:45,Erro ao acessar banco de dados
+8,aviso,2024-01-01 08:27:10,Tentativa de acesso inválida
+9,login,2024-01-01 08:30:00,Usuário maria logou
+10,sucesso,2024-01-01 08:32:50,Backup iniciado
+11,erro,2024-01-01 08:35:15,Falha ao salvar arquivo
+12,aviso,2024-01-01 08:37:20,Espaço em disco baixo
+13,login,2024-01-01 08:40:00,Usuário pedro logou
+14,sucesso,2024-01-01 08:42:30,Backup concluído
+15,logout,2024-01-01 08:45:00,Usuário maria saiu
+16,login,2024-01-01 08:47:10,Usuário ana logou
+17,erro,2024-01-01 08:50:00,Falha na autenticação
+18,aviso,2024-01-01 08:52:15,Muitas tentativas de login
+19,login,2024-01-01 08:55:00,Usuário carlos logou
+20,sucesso,2024-01-01 08:57:20,Arquivo enviado com sucesso
+21,logout,2024-01-01 09:00:00,Usuário pedro saiu
+22,login,2024-01-01 09:02:30,Usuário admin logou
+23,erro,2024-01-01 09:05:10,Falha ao atualizar sistema
+24,aviso,2024-01-01 09:07:00,Latência de rede alta
+25,sucesso,2024-01-01 09:10:40,Serviço reiniciado
+26,login,2024-01-01 09:12:00,Usuário lucas logou
+27,erro,2024-01-01 09:14:50,Erro ao processar requisição
+28,aviso,2024-01-01 09:16:10,Memória próxima do limite
+29,sucesso,2024-01-01 09:18:30,Cache limpo
+30,logout,2024-01-01 09:20:00,Usuário ana saiu
+31,login,2024-01-01 09:22:15,Usuário bruna logou
+32,erro,2024-01-01 09:24:40,Falha ao conectar ao servidor
+33,aviso,2024-01-01 09:26:10,Tentativa de acesso externo
+34,sucesso,2024-01-01 09:28:50,Configuração atualizada
+35,login,2024-01-01 09:30:00,Usuário rafael logou
+36,erro,2024-01-01 09:32:15,Erro ao gerar relatório
+37,aviso,2024-01-01 09:34:20,CPU com uso elevado
+38,sucesso,2024-01-01 09:36:00,Relatório gerado
+39,logout,2024-01-01 09:38:00,Usuário carlos saiu
+40,login,2024-01-01 09:40:10,Usuário paula logou
+41,erro,2024-01-01 09:42:30,Falha ao enviar email
+42,aviso,2024-01-01 09:44:10,Conexão instável
+43,sucesso,2024-01-01 09:46:00,Email reenviado com sucesso
+44,login,2024-01-01 09:48:20,Usuário joao logou
+45,erro,2024-01-01 09:50:35,Falha ao carregar interface
+46,aviso,2024-01-01 09:52:10,Tempo de resposta alto
+47,sucesso,2024-01-01 09:54:00,Interface restaurada
+48,logout,2024-01-01 09:56:00,Usuário lucas saiu
+49,login,2024-01-01 09:58:15,Usuário admin logou
+50,erro,2024-01-01 10:00:30,Falha ao validar token
+51,sucesso,2024-01-01 10:02:00,Token renovado
+52,logout,2024-01-01 10:05:00,Usuário admin saiu

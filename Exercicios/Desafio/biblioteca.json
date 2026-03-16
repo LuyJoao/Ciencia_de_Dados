@@ -1,0 +1,17 @@
+{
+    "livros": [
+        {
+            "titulo": "algoritmos cormen",
+            "autor": "cormen",
+            "isbn": "1234",
+            "disponivel": true
+        }
+    ],
+    "usuarios": [
+        {
+            "nome": "joao",
+            "cpf": "110",
+            "livros": []
+        }
+    ]
+}
