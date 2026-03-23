@@ -1,0 +1,32 @@
+[
+  {
+    "query":"cold winter weather",
+    "url_imagem":"https:\/\/images.unsplash.com\/photo-1772920908663-3bf04eeb9e16?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDM3MDZ8MHwxfHNlYXJjaHwxfHxjb2xkJTIwd2ludGVyJTIwd2VhdGhlcnxlbnwwfDB8fHwxNzc0Mjc0NTQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "url_thumb":"https:\/\/images.unsplash.com\/photo-1772920908663-3bf04eeb9e16?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDM3MDZ8MHwxfHNlYXJjaHwxfHxjb2xkJTIwd2ludGVyJTIwd2VhdGhlcnxlbnwwfDB8fHwxNzc0Mjc0NTQ1fDA&ixlib=rb-4.1.0&q=80&w=200",
+    "fotografo":"Alexander von Schulz",
+    "link_foto":"https:\/\/unsplash.com\/photos\/pair-of-black-shoes-covered-in-snow-y2QjmK75Kx0",
+    "descricao":"Pair of black shoes covered in snow",
+    "classificacao":"frio",
+    "arquivo_local":"imagens_clima\/frio.jpg"
+  },
+  {
+    "query":"mild cloudy weather",
+    "url_imagem":"https:\/\/images.unsplash.com\/photo-1669741249119-b6cc3b2b498e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDM3MDZ8MHwxfHNlYXJjaHwxfHxtaWxkJTIwY2xvdWR5JTIwd2VhdGhlcnxlbnwwfDB8fHwxNzc0Mjc0NTQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "url_thumb":"https:\/\/images.unsplash.com\/photo-1669741249119-b6cc3b2b498e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDM3MDZ8MHwxfHNlYXJjaHwxfHxtaWxkJTIwY2xvdWR5JTIwd2VhdGhlcnxlbnwwfDB8fHwxNzc0Mjc0NTQ5fDA&ixlib=rb-4.1.0&q=80&w=200",
+    "fotografo":"Harshita Gupta",
+    "link_foto":"https:\/\/unsplash.com\/photos\/a-wooden-fence-with-trees-in-the-background-9iWfyRPxU0Q",
+    "descricao":"a wooden fence with trees in the background",
+    "classificacao":"ameno",
+    "arquivo_local":"imagens_clima\/ameno.jpg"
+  },
+  {
+    "query":"sunny hot weather",
+    "url_imagem":"https:\/\/images.unsplash.com\/photo-1636637275183-879d97e60319?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDM3MDZ8MHwxfHNlYXJjaHwxfHxzdW5ueSUyMGhvdCUyMHdlYXRoZXJ8ZW58MHwwfHx8MTc3NDI3NDU1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "url_thumb":"https:\/\/images.unsplash.com\/photo-1636637275183-879d97e60319?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDM3MDZ8MHwxfHNlYXJjaHwxfHxzdW5ueSUyMGhvdCUyMHdlYXRoZXJ8ZW58MHwwfHx8MTc3NDI3NDU1MXww&ixlib=rb-4.1.0&q=80&w=200",
+    "fotografo":"Pascal Bernardon",
+    "link_foto":"https:\/\/unsplash.com\/photos\/a-large-group-of-rocks-sitting-on-top-of-a-hillside-wKhTdgqhFbk",
+    "descricao":"a large group of rocks sitting on top of a hillside",
+    "classificacao":"quente",
+    "arquivo_local":"imagens_clima\/quente.jpg"
+  }
+]
