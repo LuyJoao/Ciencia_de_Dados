@@ -1,0 +1,124 @@
+2026-04-22 21:58:02,161 [INFO] ============================================================
+2026-04-22 21:58:02,161 [INFO] Iniciando pipeline – Trabalho 3
+2026-04-22 21:58:02,162 [INFO] ============================================================
+2026-04-22 21:58:02,162 [INFO] Coletando série 'ipca' (código 433) de https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados
+2026-04-22 21:58:02,855 [INFO]   → 555 registros obtidos
+2026-04-22 21:58:02,865 [INFO] Coletando série 'selic' (código 11) de https://api.bcb.gov.br/dados/serie/bcdata.sgs.11/dados
+2026-04-22 21:58:03,608 [ERROR] Erro ao coletar 'selic': 406 Client Error: Not Acceptable for url: https://api.bcb.gov.br/dados/serie/bcdata.sgs.11/dados
+2026-04-22 21:58:03,632 [INFO] Coletando série 'cambio' (código 1) de https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados
+2026-04-22 21:58:04,212 [ERROR] Erro ao coletar 'cambio': 406 Client Error: Not Acceptable for url: https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados
+2026-04-22 21:58:04,258 [INFO] Série 'ipca' processada: 555 registros válidos (1980-01-01 → 2026-03-01)
+2026-04-22 21:58:04,261 [INFO] Conectando ao MySQL...
+2026-04-22 21:58:04,460 [ERROR] Falha na conexão MySQL: 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+2026-04-22 22:08:17,260 [INFO] ============================================================
+2026-04-22 22:08:17,260 [INFO] Iniciando pipeline – Trabalho 3
+2026-04-22 22:08:17,261 [INFO] ============================================================
+2026-04-22 22:08:17,261 [INFO] Coletando série 'ipca' (código 433) de https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados
+2026-04-22 22:08:17,930 [INFO]   → 555 registros obtidos
+2026-04-22 22:08:17,941 [INFO] Coletando série 'selic' (código 11) de https://api.bcb.gov.br/dados/serie/bcdata.sgs.11/dados
+2026-04-22 22:08:18,571 [ERROR] Erro ao coletar 'selic': 406 Client Error: Not Acceptable for url: https://api.bcb.gov.br/dados/serie/bcdata.sgs.11/dados
+2026-04-22 22:08:18,574 [INFO] Coletando série 'cambio' (código 1) de https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados
+2026-04-22 22:08:19,144 [ERROR] Erro ao coletar 'cambio': 406 Client Error: Not Acceptable for url: https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados
+2026-04-22 22:08:19,158 [INFO] Série 'ipca' processada: 555 registros válidos (1980-01-01 → 2026-03-01)
+2026-04-22 22:08:19,159 [INFO] Conectando ao MySQL...
+2026-04-22 22:08:19,285 [INFO] Conexão estabelecida.
+2026-04-22 22:08:19,574 [INFO] Schema verificado/criado.
+2026-04-22 22:09:38,122 [INFO] ============================================================
+2026-04-22 22:09:38,123 [INFO] Iniciando pipeline – Trabalho 3
+2026-04-22 22:09:38,123 [INFO] ============================================================
+2026-04-22 22:09:38,123 [INFO] Coletando série 'ipca' (código 433) de https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados
+2026-04-22 22:09:38,857 [INFO]   → 555 registros obtidos
+2026-04-22 22:09:38,868 [INFO] Coletando série 'selic' (código 11) de https://api.bcb.gov.br/dados/serie/bcdata.sgs.11/dados
+2026-04-22 22:09:39,478 [ERROR] Erro ao coletar 'selic': 406 Client Error: Not Acceptable for url: https://api.bcb.gov.br/dados/serie/bcdata.sgs.11/dados
+2026-04-22 22:09:39,483 [INFO] Coletando série 'cambio' (código 1) de https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados
+2026-04-22 22:09:40,075 [ERROR] Erro ao coletar 'cambio': 406 Client Error: Not Acceptable for url: https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados
+2026-04-22 22:09:40,105 [INFO] Série 'ipca' processada: 555 registros válidos (1980-01-01 → 2026-03-01)
+2026-04-22 22:09:40,110 [INFO] Conectando ao MySQL...
+2026-04-22 22:09:40,172 [INFO] Conexão estabelecida.
+2026-04-22 22:09:40,203 [INFO] Schema verificado/criado.
+2026-04-22 22:09:40,283 [INFO] economia_historico: 555 linhas afetadas.
+2026-04-22 22:09:40,288 [INFO] Executando consultas SQL (slides 17 e 23)...
+2026-04-22 22:09:40,315 [INFO] economia_estatisticas: 29 linhas afetadas.
+2026-04-22 22:09:40,972 [INFO] Consultados 555 registros do MySQL.
+2026-04-22 22:09:40,974 [INFO] 
+── Estatísticas Pandas ──────────────────────────────────────
+2026-04-22 22:09:40,976 [INFO] IPCA: média=5.55%  max=82.39%  min=-0.68%  dp=10.56%  mediana=0.71%
+2026-04-22 22:09:40,977 [INFO] SELIC: média=nan%  max=nan%  min=nan%  dp=nan%  mediana=nan%
+2026-04-22 22:09:40,990 [INFO] 
+Média anual (últimos 5 anos):
+      ipca selic
+ano             
+2022  0.47   NaN
+2023  0.38   NaN
+2024  0.39   NaN
+2025  0.35   NaN
+2026  0.64   NaN
+2026-04-22 22:09:41,603 [INFO] Gráfico 1 salvo: grafico1_ipca_linha.png
+2026-04-22 22:09:41,941 [INFO] Gráfico 2 salvo: grafico2_anual_barras.png
+2026-04-22 22:09:42,280 [INFO] Gráfico 3 salvo: grafico3_dispersao.png
+2026-04-22 22:09:42,281 [INFO] Pipeline finalizado com sucesso.
+2026-04-22 22:11:13,161 [INFO] ============================================================
+2026-04-22 22:11:13,162 [INFO] Iniciando pipeline – Trabalho 3
+2026-04-22 22:11:13,162 [INFO] ============================================================
+2026-04-22 22:11:13,163 [INFO] Coletando série 'ipca' (código 433) de https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados
+2026-04-22 22:11:13,831 [INFO]   → 555 registros obtidos
+2026-04-22 22:11:13,842 [INFO] Coletando série 'selic' (código 4390) de https://api.bcb.gov.br/dados/serie/bcdata.sgs.4390/dados
+2026-04-22 22:11:16,275 [INFO]   → 477 registros obtidos
+2026-04-22 22:11:16,285 [INFO] Coletando série 'cambio' (código 1) de https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados
+2026-04-22 22:11:16,857 [ERROR] Erro ao coletar 'cambio': 406 Client Error: Not Acceptable for url: https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados
+2026-04-22 22:11:16,879 [INFO] Série 'ipca' processada: 555 registros válidos (1980-01-01 → 2026-03-01)
+2026-04-22 22:11:16,890 [INFO] Série 'selic' processada: 477 registros válidos (1986-08-01 → 2026-04-01)
+2026-04-22 22:11:16,893 [INFO] Conectando ao MySQL...
+2026-04-22 22:11:16,955 [INFO] Conexão estabelecida.
+2026-04-22 22:11:16,965 [INFO] Schema verificado/criado.
+2026-04-22 22:11:17,052 [INFO] economia_historico: 953 linhas afetadas.
+2026-04-22 22:11:17,052 [INFO] Executando consultas SQL (slides 17 e 23)...
+2026-04-22 22:11:17,063 [INFO] economia_estatisticas: 2 linhas afetadas.
+2026-04-22 22:11:17,317 [INFO] Consultados 556 registros do MySQL.
+2026-04-22 22:11:17,317 [INFO] 
+── Estatísticas Pandas ──────────────────────────────────────
+2026-04-22 22:11:17,319 [INFO] IPCA: média=5.55%  max=82.39%  min=-0.68%  dp=10.56%  mediana=0.71%
+2026-04-22 22:11:17,321 [INFO] SELIC: média=5.87%  max=82.04%  min=0.13%  dp=11.40%  mediana=1.20%
+2026-04-22 22:11:17,332 [INFO] 
+Média anual (últimos 5 anos):
+      ipca  selic
+ano              
+2022  0.47   0.98
+2023  0.38   1.03
+2024  0.39   0.87
+2025  0.35   1.12
+2026  0.64   1.03
+2026-04-22 22:11:17,907 [INFO] Gráfico 1 salvo: grafico1_ipca_linha.png
+2026-04-22 22:11:18,310 [INFO] Gráfico 2 salvo: grafico2_anual_barras.png
+2026-04-22 22:11:18,604 [INFO] Gráfico 3 salvo: grafico3_dispersao.png
+2026-04-22 22:11:18,605 [INFO] Pipeline finalizado com sucesso.
+2026-04-22 22:15:51,780 [INFO] Iniciando pipeline...
+2026-04-22 22:15:51,780 [INFO] Buscando serie 'ipca' da API do BCB...
+2026-04-22 22:15:54,968 [INFO] 555 registros obtidos para 'ipca'
+2026-04-22 22:15:54,977 [INFO] Buscando serie 'selic' da API do BCB...
+2026-04-22 22:15:55,566 [INFO] 477 registros obtidos para 'selic'
+2026-04-22 22:15:55,576 [INFO] Buscando serie 'cambio' da API do BCB...
+2026-04-22 22:15:56,125 [ERROR] Erro ao buscar 'cambio': 406 Client Error: Not Acceptable for url: https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados
+2026-04-22 22:15:56,143 [INFO] Serie 'ipca' processada: 555 registros (1980-01-01 ate 2026-03-01)
+2026-04-22 22:15:56,162 [INFO] Serie 'selic' processada: 477 registros (1986-08-01 ate 2026-04-01)
+2026-04-22 22:15:56,164 [INFO] Conectando ao MySQL...
+2026-04-22 22:15:56,219 [INFO] Conexao estabelecida.
+2026-04-22 22:15:56,227 [INFO] Tabelas criadas/verificadas.
+2026-04-22 22:15:56,344 [INFO] economia_historico: 0 linhas inseridas/atualizadas.
+2026-04-22 22:15:56,356 [INFO] economia_estatisticas: 0 linhas inseridas/atualizadas.
+2026-04-22 22:15:56,617 [INFO] 556 registros carregados do MySQL.
+2026-04-22 22:15:56,617 [INFO] Calculando estatisticas com pandas...
+2026-04-22 22:15:56,620 [INFO] IPCA: media=5.55  max=82.39  min=-0.68  dp=10.56  mediana=0.71
+2026-04-22 22:15:56,622 [INFO] SELIC: media=5.87  max=82.04  min=0.13  dp=11.40  mediana=1.20
+2026-04-22 22:15:56,635 [INFO] Media anual (ultimos 5 anos):
+      ipca  selic
+ano              
+2022  0.47   0.98
+2023  0.38   1.03
+2024  0.39   0.87
+2025  0.35   1.12
+2026  0.64   1.03
+2026-04-22 22:15:57,252 [INFO] Grafico 1 salvo.
+2026-04-22 22:15:57,644 [INFO] Grafico 2 salvo.
+2026-04-22 22:15:57,980 [INFO] Grafico 3 salvo.
+2026-04-22 22:15:57,981 [INFO] Pipeline finalizado.
