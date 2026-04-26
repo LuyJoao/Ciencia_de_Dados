@@ -6,13 +6,16 @@ import matplotlib.dates as mdates
 import logging
 import json
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 DB_CONFIG = {
-    "host": "localhost",
-    "user": "root",
-    "password": "J@ke4682",
-    "database": "economia_bcb",
-    "port": 3306,
+    "host": os.getenv("DB_HOST", "localhost"),
+    "user": os.getenv("DB_USER", "root"),
+    "password": os.getenv("DB_PASSWORD", ""),
+    "database": os.getenv("DB_NAME", "economia_bcb"),
+    "port": int(os.getenv("DB_PORT", 3306)),
 }
 
 BCB_URL = "https://api.bcb.gov.br/dados/serie/bcdata.sgs.{codigo}/dados"
@@ -366,5 +369,12 @@ def main():
     log.info("Pipeline finalizado.")
 
 
+import time
+
 if __name__ == "__main__":
-    main()
+    INTERVALO_HORAS = 12
+
+    while True:
+        main()
+        log.info(f"Proxima execucao em {INTERVALO_HORAS}h...")
+        time.sleep(INTERVALO_HORAS * 3600)
